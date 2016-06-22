@@ -1,0 +1,20 @@
+/**
+ * @version    $Id$
+ * @package    JSN_Framework
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+
+/* ============================== JOOMLASHINE GUI ============================== */
+
+@import url("jsn-general.css")/*tpa=http://demo.jlvextension.com/carservice/plugins/system/jsnframework/assets/joomlashine/css/jsn-general.css*/;
+@import url("jsn-bootstrap.css")/*tpa=http://demo.jlvextension.com/carservice/plugins/system/jsnframework/assets/joomlashine/css/jsn-bootstrap.css*/;
+@import url("jsn-jqueryui.css")/*tpa=http://demo.jlvextension.com/carservice/plugins/system/jsnframework/assets/joomlashine/css/jsn-jqueryui.css*/;
+@import url("jsn-admintemplates.css")/*tpa=http://demo.jlvextension.com/carservice/plugins/system/jsnframework/assets/joomlashine/css/jsn-admintemplates.css*/;
+@import url("jsn-pages.css")/*tpa=http://demo.jlvextension.com/carservice/plugins/system/jsnframework/assets/joomlashine/css/jsn-pages.css*/;
+@import url("jsn-fonticomoon.css")/*tpa=http://demo.jlvextension.com/carservice/plugins/system/jsnframework/assets/joomlashine/css/jsn-fonticomoon.css*/;
+@import url("../../3rd-party/font-icomoon/css/icomoon.css")/*tpa=http://demo.jlvextension.com/carservice/plugins/system/jsnframework/assets/3rd-party/font-icomoon/css/icomoon.css*/;
