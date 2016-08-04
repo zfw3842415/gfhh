@@ -44,8 +44,8 @@
       font-weight:600; } #sp-top-bar{ background-color:#f5f5f5;color:#999999;
       } #sp-contact-information{ background-color:#73767a;padding:30px 0; } #sp-bottom{
       background-color:#73767a; }
-      .map {width: 100%;height: 300px;margin-top: 11px;margin-bottom: 27px;
-}
+      .map {width: 100%;height: 800px;margin-top: 11px;margin-bottom: 27px;}
+      .map-inner{padding-top: 30px;}
     </style>
   <script src="media/jui/js/jquery.min.js" type="text/javascript"></script>
   <script src="media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
@@ -63,7 +63,7 @@
 </head>
 <body class="site com-sppagebuilder view-page no-layout no-task itemid-105 en-gb ltr  layout-fluid">
   <div class="body-innerwrapper">
-  <div ng-include="'common/nav.html'"></div>
+    <div ng-include="'common/nav.html'"></div>
     <section id="sp-page-title">
       <div class="row">
         <div id="sp-title" class="col-sm-12 col-md-12">
@@ -74,76 +74,76 @@
     <section id="sp-main-body">
       <div class="row">
         <div id="sp-component" class="col-sm-12 col-md-12">
-          <div class="sp-column ">
+          <div class="sp-column">
             <div id="system-message-container"></div>
             <div id="sp-page-builder" class="sp-page-builder  page-2">
               <div class="page-content">
-                <section class="sppb-section " style="">
-                  <div class="sppb-row">
-                    <div class="sppb-col-sm-12">
-                      <div class="map" id="map"></div>
+                <section id="sp-page-title">
+                  <div class="row">
+                    <div id="sp-title" class="col-sm-12 col-md-12">
+                      <div class="sp-column ">
+                        <div class="sp-page-title" style="background-color: #f5f5f5;">
+                          <div class="container">
+                            <h2>花海线路</h2>
+                            <ol class="breadcrumb">
+                              <li>
+                                <a href="index.htm" class="pathway">首页</a>
+                              </li>
+                              <li class="active">花海线路</li>
+                            </ol>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </section>
-                <section class="sppb-section " style="padding:50px 0;">
-                  <div class="sppb-container">
+                <div class="container">
+                  <section class="sppb-section " style="">
                     <div class="sppb-row">
-                      <div class="sppb-col-sm-4">
-                        <div class="sppb-addon-container" style="">
-                          <div class="sppb-addon sppb-addon-raw-html ">
-                            <div class="sppb-addon-content">
-                              <div class="features-list">
-                                <h5>联系我们</h5>
-                                <div class="icon sl-small-phone-circle"></div>
-                                <p>
-                                 1223456</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <div class="sppb-col-sm-6">
+                        <h1 class="map-inner">重庆到花海线路</h1>
+                        <div class="map" id="map"></div>
                       </div>
-                      <div class="sppb-col-sm-4">
-                        <div class="sppb-addon-container" style="">
-                          <div class="sppb-addon sppb-addon-raw-html ">
-                            <div class="sppb-addon-content">
-                              <div class="features-list">
-                                <h5>地址</h5>
-                                <div class="icon sl-small-location-map"></div>
-                                <p>
-                                  贵安新区
-                                  高峰
-                                  <br></p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="sppb-col-sm-4">
-                        <div class="sppb-addon-container" style="">
-                          <div class="sppb-addon sppb-addon-raw-html ">
-                            <div class="sppb-addon-content">
-                              <div class="features-list">
-                                <h5>景区咨询电话</h5>
-                                <div class="icon sl-small-truck-tow"></div>
-                                <p>1223456</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <div class="sppb-col-sm-6">
+                        <h1 class="map-inner">成都到花海线路</h1>
+                        <div class="map" id="cd_map"></div>
                       </div>
                     </div>
-                  </div>
-                </section>
+                  </section>
+                  <section class="sppb-section " style="">
+                    <div class="sppb-row">
+                      <div class="sppb-col-sm-6">
+                        <h1 >云南到花海线路</h1>
+                        <div class="map" id="yn_map"></div>
+                      </div>
+                      <div class="sppb-col-sm-6">
+                        <h1>长沙到花海线路</h1>
+                        <div class="map" id="hn_map"></div>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="sppb-section " style="">
+                    <div class="sppb-row">
+                      <div class="sppb-col-sm-6">
+                        <h1>广西到花海线路</h1>
+                        <div class="map" id="gx_map"></div>
+                      </div>
+                      <div class="sppb-col-sm-6">
+                        <h1 >广州到花海线路</h1>
+                        <div class="map" id="gz_map"></div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-     <div ng-include="'common/footer.html'"></div>
+    <div ng-include="'common/footer.html'"></div>
     <div class="offcanvas-menu">
-      <a href="#" class="close-offcanvas">
-        <i class="fa fa-remove"></i>
+      <a href="#" class="close-offcanvas"> <i class="fa fa-remove"></i>
       </a>
       <div class="offcanvas-inner">
         <p class="alert alert-warning">
@@ -181,57 +181,61 @@
   <script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
   <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
   <script type="text/javascript">
-    // 百度地图API功能
-    var map = new BMap.Map('map');
-    var poi = new BMap.Point(106.40256805511,26.328590185701);
-    map.centerAndZoom(poi, 16);
-    map.enableScrollWheelZoom();
-    //创建检索信息窗口对象
-    var searchInfoWindow = null;
-    var marker = new BMap.Marker(poi); //创建marker对象
-    marker.enableDragging(); //marker可拖拽
-    marker.addEventListener("click", function (e) {
-        searchInfoWindow.open(marker);
-    })
-    map.addOverlay(marker); //在地图中添加marker
-    searchInfoWindow.open(marker); //在marker上打开检索信息串口
-    $("close").onclick = function () {
-        searchInfoWindow.close();
-    }
-    $("open").onclick = function () {
-        var enableSendToPhone = false;
-        if ($("enableSendToPhone").checked) {
-            enableSendToPhone = true;
-        }
 
-        if ($("enableAutoPan").checked) {
-            searchInfoWindow.enableAutoPan();
-        } else {
-            searchInfoWindow.disableAutoPan();
-        };
-        searchInfoWindow.open(marker);
-    }
-    $("show").onclick = function () {
-        searchInfoWindow.show();
-    }
-    $("hide").onclick = function () {
-        searchInfoWindow.hide();
-    }
-    $("getPosition").onclick = function () {
-        var position = searchInfoWindow.getPosition();
-        alert("经度：" + position.lng + "；纬度：" + position.lat);
-    }
-    $("setValue").onclick = function () {
-        searchInfoWindow.setPosition(new BMap.Point($("lng").value, $("lat").value));
-        searchInfoWindow.setTitle($("title").value);
-        searchInfoWindow.setContent($("content").value);
-    }
-    $("getContent").onclick = function () {
-        alert(searchInfoWindow.getContent());
-    }
-    $("getTitle").onclick = function () {
-        alert(searchInfoWindow.getTitle());
-    }
+// 重庆
+var map = new BMap.Map("map");
+map.centerAndZoom(new BMap.Point(106.40256805511,26.328590185701), 12);
+    map.enableScrollWheelZoom();
+var p1 =  "重庆";
+var p2 = new BMap.Point(106.40256805511,26.328590185701);
+
+var driving = new BMap.DrivingRoute(map, {renderOptions:{map: map, autoViewport: true}});
+driving.search(p1, p2);
+//广州
+var map = new BMap.Map("gz_map");
+map.centerAndZoom(new BMap.Point(106.40256805511,26.328590185701), 12);
+    map.enableScrollWheelZoom();
+var p1 =  "广州";
+var p2 = new BMap.Point(106.40256805511,26.328590185701);
+
+var driving = new BMap.DrivingRoute(map, {renderOptions:{map: map, autoViewport: true}});
+driving.search(p1, p2);
+//云南
+var map = new BMap.Map("yn_map");
+map.centerAndZoom(new BMap.Point(106.40256805511,26.328590185701), 12);
+    map.enableScrollWheelZoom();
+var p1 =  "云南";
+var p2 = new BMap.Point(106.40256805511,26.328590185701);
+
+var driving = new BMap.DrivingRoute(map, {renderOptions:{map: map, autoViewport: true}});
+driving.search(p1, p2);
+//湖南
+var map = new BMap.Map("hn_map");
+map.centerAndZoom(new BMap.Point(106.40256805511,26.328590185701), 12);
+    map.enableScrollWheelZoom();
+var p1 =  "长沙";
+var p2 = new BMap.Point(106.40256805511,26.328590185701);
+
+var driving = new BMap.DrivingRoute(map, {renderOptions:{map: map, autoViewport: true}});
+driving.search(p1, p2);
+//广西
+var map = new BMap.Map("gx_map");
+map.centerAndZoom(new BMap.Point(106.40256805511,26.328590185701), 12);
+    map.enableScrollWheelZoom();
+var p1 =  "广西";
+var p2 = new BMap.Point(106.40256805511,26.328590185701);
+
+var driving = new BMap.DrivingRoute(map, {renderOptions:{map: map, autoViewport: true}});
+driving.search(p1, p2);
+//成都
+var map = new BMap.Map("cd_map");
+map.centerAndZoom(new BMap.Point(106.40256805511,26.328590185701), 12);
+    map.enableScrollWheelZoom();
+var p1 =  "成都";
+var p2 = new BMap.Point(106.40256805511,26.328590185701);
+
+var driving = new BMap.DrivingRoute(map, {renderOptions:{map: map, autoViewport: true}});
+driving.search(p1, p2);
 </script>
 </body>
 
